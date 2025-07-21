@@ -1,0 +1,82 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #fefefe;
+    }
+
+    nav {
+      background-color: #6c63ff;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none; 
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    #home {
+      background-color: #e0e7ff;
+      text-align: center;
+    }
+
+    #jokes {
+      background-color: #fff9c4;
+    }
+
+    #motivation {
+      background-color: #e8f5e9;
+    }
+
+    #affirmation {
+      background-color: #f3e5f5;
+    }
+
+    #friends {
+      background-color: #fff7f0;
+    }
+
+    #contact {
+      background-color: #ffebee;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #6c63ff;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #554fbd;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+ 
